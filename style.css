@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    /* border-radius: 20px; */
+    padding: 10px;
+    /* margin: 10px; */
+    position: sticky;
+    top :0ex
+
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.title{
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    /* border-radius: 20px; */
+    display: flex;
+    justify-content: center;
+}
+
+.title .item1{
+    font-size: 2rem;
+    color: brown;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+.container{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.container .item{
+    /* border: 2px solid black;
+    border-radius: 20px; */
+    margin: 10px;padding: 10px;
+}
+
+.container .item2,.item3{
+    display: grid;
+    align-items: center;
+}
+/* .container .item4{
+    justify-self: center;
+} */
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+/* @media only Screen and (max-width:500px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+} */
+.video-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid black; */
+}
+.video-links .items{
+    /* border: 2px solid black; */
+    padding: 10px;margin: 10px;
+    width: 100%;
+}
+
+.container .item2,.item3{
+    font-size: 22px;
+}
+.footer{
+    border-top-style:solid ;
+    border-top-width: 2px;
+}
+
+.header{
+  padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+   
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    margin-right: 20px;
+}
+.navbar a{
+    font-size: 20px;
+}
