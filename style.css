@@ -119,3 +119,6 @@ body{
 .navbar a{
     font-size: 20px;
 }
+.container .item3 ul li{
+    text-align: center;
+}
